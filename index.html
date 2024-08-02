@@ -26,6 +26,7 @@
             colors: {
               clifford: "#da373d",
               "bike-primary": "#E76F51;",
+              "slider-primary": "#F6F5F5;",
             },
           },
         },
@@ -40,7 +41,7 @@
   </head>
   <body class="poppins-font">
     <!-- header section starts here -->
-    <header>
+    <header class="md:container md:mx-auto">
       <!-- navbar -->
       <nav>
         <div class="navbar bg-base-100">
@@ -72,7 +73,7 @@
                 <li><a>Contact</a></li>
               </ul>
             </div>
-            <a class="btn btn-ghost text-4xl">Go Ride</a>
+            <a class="btn btn-ghost text-2xl lg:text-4xl">Go Ride</a>
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
@@ -83,17 +84,36 @@
             </ul>
           </div>
           <div class="navbar-end w-auto">
-            <a class="btn bg-bike-primary text-xl text-white">Login</a>
+            <a class="btn bg-bike-primary text-sm lg:text-xl text-white"
+              >Login</a
+            >
           </div>
         </div>
       </nav>
       <!-- carousel -->
-      <div class="carousel w-full">
+      <div class="carousel w-full lg:h-[500px] bg-slider-primary">
         <div id="slide1" class="carousel-item relative w-full">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
-            class="w-full"
-          />
+          <div
+            class="flex flex-col lg:flex-row py-4 p-4 lg:p-28 gap-8 lg:items-center"
+          >
+            <div class="flex-1 space-y-4">
+              <h2 class="font-bold text-3xl lg:text-6xl text-gray-500">
+                Keep Your Ride <br />
+                Safe At Every Time
+              </h2>
+              <p class="text-sm lg:text-2xl">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+              <button class="bg-bike-primary py-2 px-4 rounded-lg text-white">
+                Purchase
+              </button>
+            </div>
+            <div class="flex-1 pl-11 lg:p-0">
+              <img src="images/slider/bike1.png" class="w-3/4" />
+            </div>
+          </div>
           <div
             class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
           >
@@ -102,10 +122,27 @@
           </div>
         </div>
         <div id="slide2" class="carousel-item relative w-full">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-            class="w-full"
-          />
+          <div
+            class="flex flex-col lg:flex-row py-4 p-4 lg:p-28 gap-8 lg:items-center"
+          >
+            <div class="flex-1 space-y-4">
+              <h2 class="font-bold text-3xl lg:text-6xl text-gray-500">
+                Keep Your Ride <br />
+                Safe At Every Time
+              </h2>
+              <p class="text-sm lg:text-2xl">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+              <button class="bg-bike-primary py-2 px-4 rounded-lg text-white">
+                Purchase
+              </button>
+            </div>
+            <div class="flex-1 pl-11 lg:p-0">
+              <img src="images/slider/bike2.png" class="w-3/4" />
+            </div>
+          </div>
           <div
             class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
           >
@@ -114,10 +151,27 @@
           </div>
         </div>
         <div id="slide3" class="carousel-item relative w-full">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-            class="w-full"
-          />
+          <div
+            class="flex flex-col lg:flex-row py-4 p-4 lg:p-28 gap-8 lg:items-center"
+          >
+            <div class="flex-1 space-y-4">
+              <h2 class="font-bold text-3xl lg:text-6xl text-gray-500">
+                Keep Your Ride <br />
+                Safe At Every Time
+              </h2>
+              <p class="text-sm lg:text-2xl">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+              <button class="bg-bike-primary py-2 px-4 rounded-lg text-white">
+                Purchase
+              </button>
+            </div>
+            <div class="flex-1 pl-11 lg:p-0">
+              <img src="images/slider/bike3.png" class="w-3/4" />
+            </div>
+          </div>
           <div
             class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
           >
@@ -126,10 +180,27 @@
           </div>
         </div>
         <div id="slide4" class="carousel-item relative w-full">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-            class="w-full"
-          />
+          <div
+            class="flex flex-col lg:flex-row py-4 p-4 lg:p-28 gap-8 lg:items-center"
+          >
+            <div class="flex-1 space-y-4">
+              <h2 class="font-bold text-3xl lg:text-6xl text-gray-500">
+                Keep Your Ride <br />
+                Safe At Every Time
+              </h2>
+              <p class="text-sm lg:text-2xl">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+              <button class="bg-bike-primary py-2 px-4 rounded-lg text-white">
+                Purchase
+              </button>
+            </div>
+            <div class="flex-1 pl-11 lg:p-0">
+              <img src="images/slider/bike4.png" class="w-3/4" />
+            </div>
+          </div>
           <div
             class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
           >
@@ -140,7 +211,25 @@
       </div>
     </header>
     <!-- main section starts here -->
-    <main></main>
+    <main>
+      <!-- featured bike section starts here -->
+      <section>
+        <h2 class="text-black text-5xl text-center my-4">
+          Fetured Bikes In This Year
+        </h2>
+        <div>
+          <div>
+            <img src="images/others/latest1.png" alt="" />
+          </div>
+          <div>
+            <img src="images/others/latest2.png" alt="" />
+          </div>
+          <div>
+            <img src="images/others/latest3.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- footer section starts here -->
     <footer></footer>
   </body>
